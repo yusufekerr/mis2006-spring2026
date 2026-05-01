@@ -1,0 +1,98 @@
+:root { 
+  font-family: Georgia, "Times New Roman", serif; 
+  color: #172026; background: #f5efe6;
+}
+
+body { 
+  margin: 0;
+}
+
+.app-shell { 
+  max-width: 1100px; 
+  margin: 0 auto; 
+  padding: 24px;
+}
+  
+header {
+  border-bottom: 3px solid #172026; 
+  margin-bottom: 24px; 
+  padding-bottom: 16px;
+}
+
+nav { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 12px;
+}
+
+nav a { 
+  color: #172026; 
+  font-weight: 700; 
+  text-decoration: none; 
+  border: 2px solid #172026; 
+  padding: 8px 12px; background: #ffd166;
+}
+
+button { 
+  cursor: pointer; 
+  border: 2px solid #172026; 
+  background: #118ab2; 
+  color: white; 
+  padding: 10px 14px; 
+  margin-right: 8px; 
+  font-weight: 700;
+}
+
+.course-grid { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+  gap: 16px;
+}
+  
+.course-card,.panel,.form-panel,.success-box { 
+  background: white; 
+  border: 2px solid #172026; 
+  box-shadow: 6px 6px 0 #172026; 
+  padding: 18px; margin-bottom: 18px;
+}
+
+.status-open { 
+  color: #087f5b; 
+  font-weight: 700;
+}
+
+.status-closed,.error { 
+  color: #c1121f;
+  font-weight: 700;
+}
+
+form { 
+  display: grid; 
+  gap: 14px; 
+  max-width: 520px;
+}
+
+label { 
+  display: grid; 
+  gap: 6px; 
+  font-weight: 700;
+}
+
+input,select { 
+  border: 2px solid #172026; 
+  padding: 10px; 
+  font: inherit;
+}
+
+.checkbox-row { 
+  display: flex; 
+  align-items: center; 
+  gap: 8px;
+}
+
+pre { 
+  overflow: auto; 
+  background: #172026; 
+  color: #f5efe6; 
+  padding: 12px;
+}
